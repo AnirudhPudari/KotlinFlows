@@ -1,6 +1,6 @@
 .idea/shelf
-out/
 /tmp
 /intellij
 .gradle/
 build/
+/out/
