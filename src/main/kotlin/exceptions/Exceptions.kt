@@ -48,6 +48,6 @@ suspend fun exceptionInTerminalOperator() {
 fun simple(): Flow<Int> = flow {
     for (i in 1..3) {
         println("Emitting $i")
-        emit(i) // emit next value
+        emit(i)
     }
 }
