@@ -39,8 +39,6 @@ fun main() {
         val foldSum = numbers().fold(5) { accumulator, value -> accumulator + value }
         println("Fold calculation with initial value as 5 and computed value is $foldSum")
 
-
-        numbers().count()
     }
 }
 
