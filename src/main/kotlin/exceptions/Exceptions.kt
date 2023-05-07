@@ -10,7 +10,7 @@ fun main() {
 
         exceptionInTerminalOperator()
 
-        //Best way to handle exception by moving the collect code to onEach where you can catch exceptions from all blocks
+        //Best way to handle exception by moving the collect code to onEach where you can catch exceptions from all blocks(emitter/intermediaten operators)
         println("------------------------Exception handling using a catch operator----------------------------------------------")
         (1..3).asFlow().map { it * 2 }.onEach {
             if (it > 2) throw Exception("$it")
